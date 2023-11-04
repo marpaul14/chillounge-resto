@@ -2,10 +2,10 @@ import KaraokeImg from "../assets/karaoke.jpg";
 
 function Leisure() {
   return (
-    <div className="py-1 mx-auto ">
+    <div className="py-1 mx-auto cursor-default">
       <div className="grid grid-cols-2 w-full space-x-2 text-[#01022b]">
         <div className="">
-          <img src={KaraokeImg} className="rounded" />
+          <img src={KaraokeImg} className="rounded w-full" />
         </div>
         <div className="pt-5 lg:pl-[-10]">
           <h1 className="text-2xl font-semibold lg:text-4xl">Leisure</h1>

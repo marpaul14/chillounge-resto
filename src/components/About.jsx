@@ -2,7 +2,7 @@ import AboutPic from "../assets/about-pic.jpg";
 
 function About() {
   return (
-    <div className="bg-[#01022b] text-slate-100  w-full mx-auto px-4">
+    <div className="bg-[#01022b] text-slate-100  w-full mx-auto px-4 cursor-default">
       <div className="px-5 py-6 grid grid-cols-2 w-full ">
         <div className="py-4 pr-5">
           <h1 className="font-semibold text-2xl pb-3 lg:text-4xl ">ABOUT US</h1>
@@ -16,7 +16,7 @@ function About() {
           </p>
         </div>
         <div>
-          <img src={AboutPic} className="rounded-2xl" />
+          <img src={AboutPic} className="rounded-2xl h-80 lg:h-auto" />
         </div>
       </div>
     </div>
