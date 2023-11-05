@@ -7,9 +7,9 @@ function Leisure() {
         <div className="">
           <img src={KaraokeImg} className="rounded w-full" />
         </div>
-        <div className="pt-5 lg:pl-[-10]">
-          <h1 className="text-2xl font-semibold lg:text-4xl">Leisure</h1>
-          <p className="mt-3 lg:text-2xl lg:mt-5">
+        <div className="pt-5">
+          <h1 className="text-3xl font-semibold lg:text-5xl">Leisure</h1>
+          <p className="mt-3 lg:text-2xl lg:mt-5 justify-start">
             For those looking to indulge in some musical fun, we provide
             well-equipped KTV rooms where you can sing your heart out with
             friends and family. Additionally, our spacious function hall is
