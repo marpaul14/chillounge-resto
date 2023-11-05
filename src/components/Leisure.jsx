@@ -2,14 +2,16 @@ import KaraokeImg from "../assets/karaoke.jpg";
 
 function Leisure() {
   return (
-    <div className="py-1 mx-auto cursor-default">
+    <div className="mx-auto cursor-default w-full lg:w-[85%]">
       <div className="grid grid-cols-2 w-full space-x-2 text-[#01022b]">
-        <div className="">
-          <img src={KaraokeImg} className="rounded w-full" />
+        <div className="pt-3">
+          <img src={KaraokeImg} className="rounded w-full h-[95%]" />
         </div>
-        <div className="pt-5">
-          <h1 className="text-3xl font-semibold lg:text-5xl">Leisure</h1>
-          <p className="mt-3 lg:text-2xl lg:mt-5 justify-start">
+        <div className="pt-6">
+          <h1 className="text-2xl font-semibold lg:text-4xl md:text-3xl">
+            Leisure
+          </h1>
+          <p className="mt-3 lg:text-xl lg:mt-5">
             For those looking to indulge in some musical fun, we provide
             well-equipped KTV rooms where you can sing your heart out with
             friends and family. Additionally, our spacious function hall is
