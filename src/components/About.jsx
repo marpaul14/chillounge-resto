@@ -8,7 +8,7 @@ function About() {
           <h1 className="font-semibold text-2xl pb-3 lg:text-4xl md:text-3xl">
             ABOUT US
           </h1>
-          <p className="lg:text-xl">
+          <p className="lg:text-2xl">
             Welcome to Chillounge Resto & KTV Bar, your ultimate destination for
             relaxation and entertainment. Our doors are open from 9am to 10pm
             daily, providing you with a perfect place to unwind and have a great
