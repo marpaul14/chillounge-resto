@@ -4,7 +4,7 @@ function Offers() {
       <div className="text-2xl text-center pt-3 py-3 lg:text-4xl">
         <h1>ChilLounge Offers</h1>
       </div>
-      <div className="grid grid-cols-3 px-3 space-x-2">
+      <div className="grid grid-cols-3 px-3 space-x-2 justify-between">
         <div className="">
           <h1 className="text-center text-lg border-b lg:text-2xl">
             Food & Beverages

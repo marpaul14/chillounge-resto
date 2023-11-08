@@ -2,7 +2,7 @@ import KaraokeImg from "../assets/karaoke.jpg";
 
 function Leisure() {
   return (
-    <div className="mx-auto cursor-default w-full lg:w-[85%] ">
+    <div className="mx-auto cursor-default w-full lg:w-[85%]">
       <div className="grid grid-cols-2 w-full space-x-2 text-[#01022b]">
         <div className="pt-3">
           <img src={KaraokeImg} className="rounded w-full h-[95%]" />
