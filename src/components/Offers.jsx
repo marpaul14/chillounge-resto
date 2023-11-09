@@ -1,8 +1,8 @@
 function Offers() {
   return (
     <div className="w-full bg-[#01022b] h-[50vh] text-slate-100 py-2 mx-auto lg:w-[85%]">
-      <div className="text-2xl text-center pt-3 py-3 lg:text-4xl">
-        <h1>ChilLounge Offers</h1>
+      <div className="text-2xl text-center pt-3 py-3 lg:text-4xl font-semibold">
+        <h1>ChilLounge Offers </h1>
       </div>
       <div className="grid grid-cols-3 px-3 space-x-2 justify-between">
         <div className="">
