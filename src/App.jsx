@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Foods from "./components/Foods";
 import Hero from "./components/Hero";
 import Leisure from "./components/Leisure";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Leisure />
       <Offers />
+      <Foods />
     </>
   );
 }
