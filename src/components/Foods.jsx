@@ -8,7 +8,7 @@ function Foods() {
     <div className="w-full h-[50vh] mx-auto py-5">
       <div className="flex flex-cols-4 justify-center items-center space-x-1 w-full h-[45vh]">
         <div className="">
-          <img src={foodImg1} className="w-[200px] h-[300px]" />
+          <img src={foodImg1} className="w-[200px] h-[300px] " />
         </div>
         <div className="">
           <img src={foodImg2} className="w-[200px] h-[300px]" />
