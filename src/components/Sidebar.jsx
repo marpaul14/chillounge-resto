@@ -1,7 +1,7 @@
 function Sidebar() {
   return (
-    <div>
-      <div>
+    <div className="w-full h-auto text-slate-100 mx-auto">
+      <div className="relative">
         <ul>
           <li>Home</li>
           <li>Home</li>
