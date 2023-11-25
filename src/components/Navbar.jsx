@@ -13,6 +13,7 @@ function Navbar() {
             <li className="hover:text-[#f7b603] duration-300">Order</li>
             <li className="hover:text-[#f7b603] duration-300">Reservation</li>
             <li className="hover:text-[#f7b603] duration-300">Contact</li>
+            <li className="hover:text-[#f7b603] duration-300">More Details</li>
           </ul>
         </div>
       </div>
