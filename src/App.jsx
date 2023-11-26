@@ -1,3 +1,4 @@
+import { BrowserRouter, NavLink } from "react-router-dom";
 import About from "./components/About";
 import Foods from "./components/Foods";
 import Hero from "./components/Hero";
@@ -8,12 +9,14 @@ import Offers from "./components/Offers";
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Leisure />
-      <Offers />
-      <Foods />
+      <BrowserRouter>
+        <NavLink to={<Navbar />} />
+        <Hero />
+        <About />
+        <Leisure />
+        <Offers />
+        <Foods />
+      </BrowserRouter>
     </>
   );
 }
