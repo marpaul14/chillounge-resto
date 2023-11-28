@@ -1,13 +1,13 @@
-import { BrowserRouter, NavLink, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import AppLayout from "./components/AppLayout";
+import AppLayout from "./pages/AppLayout";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <AppLayout />
+          <Route index element={<AppLayout />} />
         </Routes>
       </BrowserRouter>
     </>
