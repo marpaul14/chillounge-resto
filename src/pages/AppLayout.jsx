@@ -15,6 +15,7 @@ function AppLayout() {
         <Leisure />
         <Offers />
         <Foods />
+        <MoreDetails />
       </main>
     </>
   );
