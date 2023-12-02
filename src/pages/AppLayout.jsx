@@ -4,6 +4,7 @@ import About from "../ui/About";
 import Leisure from "../ui/Leisure";
 import Offers from "../ui/Offers";
 import Foods from "../ui/Foods";
+import MoreDetails from "./MoreDetails";
 
 function AppLayout() {
   return (
